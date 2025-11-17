@@ -1,0 +1,178 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  scrollView: {
+    flex: 1,
+  },
+  scrollContent: {
+    padding: 12,
+    paddingBottom: 30,
+  },
+  topSection: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginVertical: 15,
+    gap: 10,
+  },
+  featuredSection: {
+    height: 340,
+    borderRadius: 16,
+    overflow: 'hidden',
+    position: 'relative',
+    elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  featuredImage: {
+    width: '100%',
+    height: '100%',
+  },
+  featuredOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    justifyContent: 'flex-end',
+  },
+  featuredContent: {
+    padding: 16,
+  },
+  featuredTitle: {
+    color: '#FFFFFF',
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+  },
+  featuredSubtitle: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    marginBottom: 16,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#0066CC',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    alignSelf: 'flex-start',
+  },
+  buttonText: {
+    color: '#FFFFFF',
+    fontWeight: '600',
+    marginRight: 8,
+  },
+  rightColumn: {
+    justifyContent: 'space-between',
+  },
+  smallSection: {
+    height: 105,
+    borderRadius: 16,
+    overflow: 'hidden',
+    position: 'relative',
+    elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  sectionImage: {
+    width: '100%',
+    height: '100%',
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    borderRadius: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sectionTitle: {
+    position: 'absolute',
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+    bottom: 7,
+    left: 7,
+  },
+  loadingContainer: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+  },
+  facilitySection: {
+    marginTop: 10,
+  },
+  categoryTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 16,
+    marginLeft: 4,
+  },
+  facilityCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 12,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 2,
+    elevation: 3,
+  },
+  facilityIconContainer: {
+    width: 45,
+    height: 45,
+    borderRadius: 10,
+    backgroundColor: 'rgba(0, 102, 204, 0.1)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 16,
+  },
+  facilityInfo: {
+    flex: 1,
+  },
+  facilityTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#333',
+    marginBottom: 4,
+  },
+  facilitySubtitle: {
+    fontSize: 13,
+    color: '#777',
+  },
+});
+
+export default styles;

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "843767229628",
+    "project_id": "docmate-2adb1",
+    "storage_bucket": "docmate-2adb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843767229628:android:5d06e7121a08f1bd6cb4b9",
+        "android_client_info": {
+          "package_name": "com.example.docmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843767229628-6qgk4839ao2lud0f0i0l1mtriv34iuaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docmate",
+            "certificate_hash": "69278ef8ef80e970b3a090b2bf01f890fb55701e"
+          }
+        },
+        {
+          "client_id": "843767229628-sginn4bslhlsjvd004afiqkgj3rtarc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_vSs_fplfkN-A-Fs09jJS9bTLDcdf0ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843767229628-sginn4bslhlsjvd004afiqkgj3rtarc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
